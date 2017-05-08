@@ -27,7 +27,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
     
     
     @available(iOS 9.0, *)
-    func application(_ application: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey : Any])
+    internal func application(_ application: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey : Any])
         -> Bool {
             return self.application(application, open: url, sourceApplication: options[UIApplicationOpenURLOptionsKey.sourceApplication] as? String, annotation: "")
     }
@@ -121,6 +121,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
                     self.window?.rootViewController?.presentedViewController?.present(alert, animated: true, completion: nil)
                 }
             }
+        }
+    }
+    
+    
+    func handleIcomingLink(_ dynamicLink: FIRDynamicLink) {
+        print("DynamicLink: \(dynamicLink)")
+        guard let pathComponents = dynamicLink.url?.pathComponents  else { return }
+        for component in pathComponents {
+            print("\t>> component: \(component)")
         }
     }
     

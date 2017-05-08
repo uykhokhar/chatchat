@@ -75,7 +75,7 @@ final class ChatViewController: JSQMessagesViewController, FIRInviteDelegate {
             
             // A message hint for the dialog. Note this manifests differently depending on the
             // received invitation type. For example, in an email invite this appears as the subject.
-            invite.setMessage("Try this out!\n -\(GIDSignIn.sharedInstance().currentUser.profile.name)")
+            invite.setMessage("Try this out!")
             // Title for the dialog, this is what the user sees before sending the invites.
             invite.setTitle("Invites Example")
             invite.setDeepLink("app_url")

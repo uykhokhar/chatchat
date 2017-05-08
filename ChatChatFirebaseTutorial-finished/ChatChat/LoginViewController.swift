@@ -22,8 +22,41 @@
 
 import UIKit
 import Firebase
+import GoogleSignIn
 
-class LoginViewController: UIViewController {
+class LoginViewController: UIViewController, GIDSignInUIDelegate {
+    @IBOutlet weak var signInButton: GIDSignInButton!
+    var handle: FIRAuthStateDidChangeListenerHandle?
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        GIDSignIn.sharedInstance().uiDelegate = self
+        GIDSignIn.sharedInstance().signInSilently()
+        handle = FIRAuth.auth()?.addStateDidChangeListener() { (auth, user) in
+            if user != nil {
+                //MeasurementHelper.sendLoginEvent()
+                self.performSegue(withIdentifier: "LoginToChat", sender: nil)
+            }
+        }
+    }
+    
+    deinit {
+        if let handle = handle {
+            FIRAuth.auth()?.removeStateDidChangeListener(handle)
+        }
+    }
+}
+
+
+
+
+
+
+
+
+/*
+
+{
   
   // MARK: Properties
   @IBOutlet weak var nameField: UITextField!
@@ -81,3 +114,4 @@ class LoginViewController: UIViewController {
   }
 }
 
+*/

@@ -7,14 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C1343CA1EC0DC4D00D8EA53 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1C1343C91EC0DC4D00D8EA53 /* GoogleService-Info.plist */; };
 		1CA13E911EBF90A7007F6FD4 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA13E901EBF90A7007F6FD4 /* SignInViewController.swift */; };
-		1CCABE561EBFB97C002819DA /* GoogleService-Info-4.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1CCABE551EBFB97C002819DA /* GoogleService-Info-4.plist */; };
 		459780D31D6465FB007BE66F /* UIImage+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 459780D21D6465FB007BE66F /* UIImage+Gif.swift */; };
 		459E535F1D4BF36A00E675A5 /* License in Resources */ = {isa = PBXBuildFile; fileRef = 459E535E1D4BF36A00E675A5 /* License */; };
 		45A0D8FA1D49419500F26729 /* ChannelListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A0D8F91D49419500F26729 /* ChannelListViewController.swift */; };
 		45A0D8FE1D49508800F26729 /* CreateChannelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A0D8FD1D49508800F26729 /* CreateChannelCell.swift */; };
 		45A0D9011D4BB5E900F26729 /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A0D9001D4BB5E900F26729 /* Channel.swift */; };
-		45B210371D3B740700DB4827 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 45B210361D3B740700DB4827 /* GoogleService-Info.plist */; };
 		5E73F7DBE3F8A216DC2C5719 /* Pods_ChatChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 314D8880043C0F8A593BBEC7 /* Pods_ChatChat.framework */; };
 		BB53557A1BEF765800321277 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5355791BEF765800321277 /* AppDelegate.swift */; };
 		BB53557C1BEF765800321277 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB53557B1BEF765800321277 /* LoginViewController.swift */; };
@@ -25,8 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C1343C91EC0DC4D00D8EA53 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		1CA13E901EBF90A7007F6FD4 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
-		1CCABE551EBFB97C002819DA /* GoogleService-Info-4.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info-4.plist"; sourceTree = "<group>"; };
 		314D8880043C0F8A593BBEC7 /* Pods_ChatChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChatChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4570C5E21D54FD11007946D9 /* ChatChat.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ChatChat.entitlements; sourceTree = "<group>"; };
 		459780D21D6465FB007BE66F /* UIImage+Gif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Gif.swift"; sourceTree = "<group>"; };
@@ -34,7 +33,6 @@
 		45A0D8F91D49419500F26729 /* ChannelListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChannelListViewController.swift; sourceTree = "<group>"; };
 		45A0D8FD1D49508800F26729 /* CreateChannelCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateChannelCell.swift; sourceTree = "<group>"; };
 		45A0D9001D4BB5E900F26729 /* Channel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
-		45B210361D3B740700DB4827 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		5700698FC0E97A380C24D552 /* Pods-ChatChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChatChat/Pods-ChatChat.release.xcconfig"; sourceTree = "<group>"; };
 		A7CB9C70040851ED0530E9FC /* Pods-ChatChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChatChat/Pods-ChatChat.debug.xcconfig"; sourceTree = "<group>"; };
 		BB1E97061C147BAA00E34853 /* ChatChat-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ChatChat-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -101,7 +99,6 @@
 		BB5355781BEF765800321277 /* ChatChat */ = {
 			isa = PBXGroup;
 			children = (
-				1CCABE551EBFB97C002819DA /* GoogleService-Info-4.plist */,
 				4570C5E21D54FD11007946D9 /* ChatChat.entitlements */,
 				45A0D8FF1D4BB5DD00F26729 /* Model */,
 				BB5355901BEF816500321277 /* Controller */,
@@ -129,8 +126,8 @@
 				BB1E97061C147BAA00E34853 /* ChatChat-Bridging-Header.h */,
 				BB5355791BEF765800321277 /* AppDelegate.swift */,
 				459780D21D6465FB007BE66F /* UIImage+Gif.swift */,
+				1C1343C91EC0DC4D00D8EA53 /* GoogleService-Info.plist */,
 				BB5355851BEF765800321277 /* Info.plist */,
-				45B210361D3B740700DB4827 /* GoogleService-Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -190,10 +187,13 @@
 				TargetAttributes = {
 					BB5355751BEF765800321277 = {
 						CreatedOnToolsVersion = 7.0;
-						DevelopmentTeam = C949UFV7RU;
+						DevelopmentTeam = 64L3874Q8A;
 						LastSwiftMigration = 0800;
 						SystemCapabilities = {
 							com.apple.Keychain = {
+								enabled = 1;
+							};
+							com.apple.SafariKeychain = {
 								enabled = 1;
 							};
 						};
@@ -224,10 +224,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB5355841BEF765800321277 /* LaunchScreen.storyboard in Resources */,
-				45B210371D3B740700DB4827 /* GoogleService-Info.plist in Resources */,
 				BB5355811BEF765800321277 /* Assets.xcassets in Resources */,
+				1C1343CA1EC0DC4D00D8EA53 /* GoogleService-Info.plist in Resources */,
 				459E535F1D4BF36A00E675A5 /* License in Resources */,
-				1CCABE561EBFB97C002819DA /* GoogleService-Info-4.plist in Resources */,
 				BB53557F1BEF765800321277 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -417,11 +416,11 @@
 				CODE_SIGN_ENTITLEMENTS = ChatChat/ChatChat.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = C949UFV7RU;
+				DEVELOPMENT_TEAM = 64L3874Q8A;
 				INFOPLIST_FILE = ChatChat/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = net.telliott.rwchitchat;
+				PRODUCT_BUNDLE_IDENTIFIER = com.khokharumar.famchat2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "ChatChat/ChatChat-Bridging-Header.h";
@@ -440,11 +439,11 @@
 				CODE_SIGN_ENTITLEMENTS = ChatChat/ChatChat.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = C949UFV7RU;
+				DEVELOPMENT_TEAM = 64L3874Q8A;
 				INFOPLIST_FILE = ChatChat/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = net.telliott.rwchitchat;
+				PRODUCT_BUNDLE_IDENTIFIER = com.khokharumar.famchat2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "ChatChat/ChatChat-Bridging-Header.h";
